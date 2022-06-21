@@ -7,17 +7,17 @@
 //    и пустой конструктор.
 
 public class Car {
-    private String color;
+    private Color color;
     private String title="car";
     private double weight;
 
     //только цвет машины;
-    public Car(String color){
+    public Car(Color color){
         this.color=color;
     }
 
     //цвет и вес машины;
-    public Car(String color, double weight){
+    public Car(Color color, double weight){
         this.color=color;
         this.weight=weight;
     }

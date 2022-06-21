@@ -9,10 +9,10 @@ public class JavaProgram {
         Car car=new Car();
         car.getInfo();
         //Только цвет
-        Car car1=new Car("Blue");
+        Car car1=new Car(Color.GREEN);
         car1.getInfo();
         //Цвет и вес
-        Car car2=new Car("Red",200.0);
+        Car car2=new Car(Color.RED,200.0);
         car2.getInfo();
         System.out.println("\n");
 
