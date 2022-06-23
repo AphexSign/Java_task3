@@ -1,11 +1,11 @@
+//        4. Создайте класс Tree.Tree.
+//        Создайте три объекта на основе класса и используйте
+//        по одному конструктору на каждый.
+
 package N4_Tree;
 
 public class MainTree {
     public static void main(String[] args) {
-
-//        4. Создайте класс Tree.Tree.
-//        Создайте три объекта на основе класса и используйте
-//        по одному конструктору на каждый.
 
         Tree tree1=new Tree(100,"Сосна");
         Tree tree2=new Tree(50,true,"Береза");
