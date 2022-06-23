@@ -6,27 +6,37 @@
 //    цвет и вес машины;
 //    и пустой конструктор.
 
+package N2_Car;
+
 public class Car {
     private Color color;
     private String title="car";
-    private double weight;
+    private Double weight;
+    private static Integer count=0;
 
     //только цвет машины;
     public Car(Color color){
+        count++;
         this.color=color;
+        this.title+=count;
+
     }
 
     //цвет и вес машины;
-    public Car(Color color, double weight){
+    public Car(Color color, Double weight){
+        count++;
         this.color=color;
         this.weight=weight;
+        this.title+=count;
     }
     //Пустой конструктор
     public Car(){
+        count++;
+        this.title+=count;
     }
 
     public void getInfo(){
-        System.out.println("Car - Title:"+this.title+" color:"+this.color+" weight:"+this.weight);
+        System.out.println("Car.Car - Title:"+this.title+" color:"+this.color+" weight:"+this.weight);
     }
 
 

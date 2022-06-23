@@ -4,6 +4,8 @@
 //    установите текст: «Изучение Java - это просто!».
 //    Обратитесь к методу «printCourse» для вывода значения поля «course».
 
+package N1_Study;
+
 public class Study {
     private String course;
 

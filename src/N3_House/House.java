@@ -1,4 +1,4 @@
-//Создайте класс Дом. Добавьте в него следующие данные:
+//        Создайте класс Дом. Добавьте в него следующие данные:
 //        поля: количество этажей, год постройки, наименование;
 //        метод для установки всех значений;
 //        метод для вывода всех значений;
@@ -8,13 +8,15 @@
 //
 //        Выведите информацию про каждый объект.
 
+package N3_House;
+
 public class House {
-    private int countFloor;
-    private int yearConstr;
+    private Integer countFloor;
+    private Integer yearConstr;
     private String title;
 
     //Метод для установки всех значений;
-    public void setInfo(int countFloor,int yearConstr, String title){
+    public void setInfo(Integer countFloor,Integer yearConstr, String title){
         this.countFloor=countFloor;
         this.yearConstr=yearConstr;
         this.title=title;
@@ -26,8 +28,7 @@ public class House {
     }
 
     //Метод, возвращающий количество лет с момента постройки.
-    public int getYearConstr(){
-        return this.yearConstr;
+    public int getYearConstr(){return this.yearConstr;
     }
 
 }
